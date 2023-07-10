@@ -1,0 +1,135 @@
+/* General Style  */
+* {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 32px;
+}
+
+.pera {
+    color: #000000;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 1px;
+    margin: 25px 0px;
+}
+
+.btn-primary {
+    background-color: #E55473;
+    color: #ffffff;
+    padding: 14px 39px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+
+
+/* Header/Banner Style  */
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 630px;
+    padding-top: 50px;
+}
+
+.banner-content {
+    width: 550px;
+}
+
+.banner-content h1 {
+    font-size: 51px;
+    line-height: 64px;
+}
+
+.banner-image img {
+    width: 500px;
+}
+
+
+/* Featured Flowers Section style  */
+.feature {
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.feature p {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.feature .iner-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.feature .iner-section .column1st div {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 300px;
+    height: 350px;
+    background-image: url('./img/pngwing\ 6.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 200px auto;
+}
+
+.feature .iner-section .column2nd div {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 300px;
+    height: 350px;
+    background-image: url('./img/pngwing\ 5.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 250px auto;
+}
+
+.feature .iner-section .column3rd div {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 300px;
+    height: 350px;
+    background-image: url('./img/pngwing\ 7.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 200px auto;
+}
+
+.feature .iner-section a {
+    display: block;
+    margin-top: 20px;
+    color: #000000;
+    font-weight: 600;
+}
+
+
+/* Customer Suport information section Style  */
+.cust-info .container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 100px 0px;
+}
+
+.cust-info img {
+    width: 60px;
+    margin: 15px;
+}
