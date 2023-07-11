@@ -76,7 +76,7 @@ header {
 }
 
 .banner-content h1 {
-    font-size: 51px;
+    font-size: 60px;
     line-height: 64px;
 }
 
@@ -151,7 +151,7 @@ header {
     text-align: center;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    padding: 100px 0px;
+    padding: 59px 0px 85px;
 }
 
 .cust-info img {
@@ -247,10 +247,12 @@ header {
     margin: 100px 0px;
 }
 .newsletter .container .iner-section input[type="email"]{
-    padding: 10px;
+    padding: 11px;
     height: 27px;
     border: none;
     width: 400px;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
 /* Footer Style  */
