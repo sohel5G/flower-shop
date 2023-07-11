@@ -46,8 +46,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 630px;
-    padding-top: 50px;
+    height: 100vh;
+    max-height: 650px;
+    position: relative;
 }
 
 .banner-content {
@@ -60,7 +61,11 @@ header {
 }
 
 .banner-image img {
-    width: 500px;
+    min-width: 35%;
+    max-width: 38%;
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
 }
 
 
