@@ -30,6 +30,7 @@
     border: none;
     border-radius: 6px;
     font-size: 17px;
+    cursor: pointer;
 }
 
 
@@ -162,3 +163,38 @@ header {
 }
 
 /* Instagram Images Section Style  */
+.insta{
+    text-align: center;
+}
+.insta p{
+    width: 600px;
+    margin: 30px auto;
+}
+.insta .iner-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.insta .iner-section img{
+   width: 280px;
+}
+
+
+/* Newsletter Section Style  */
+
+.newsletter {}
+.newsletter .container {}
+.newsletter .container .iner-section{
+    text-align: center;
+    background-image: url('./img/Rectangle\ 9.png');
+    background-position: center center;
+    background-size: cover;
+    padding: 93px 0px;
+    margin: 100px 0px;
+}
+.newsletter .container .iner-section input[type="email"]{
+    padding: 10px;
+    height: 25px;
+    border: none;
+    width: 400px;
+}
+
