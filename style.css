@@ -133,3 +133,32 @@ header {
     width: 60px;
     margin: 15px;
 }
+
+
+/* Hot Deal Flower Section Style  */
+.deal {
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 80px 0px;
+    margin: 120px 0px;
+}
+
+.deal .container {
+    display: flex;
+    align-items: center;
+}
+
+.deal .text-area {
+    width: 50%;
+    text-align: center;
+}
+
+.deal .image-area {
+    width: 50%;
+    text-align: center;
+}
+
+.deal .image-area img {
+    width: 250px;
+}
+
+/* Instagram Images Section Style  */
