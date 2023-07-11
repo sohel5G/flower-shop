@@ -65,7 +65,7 @@ header {
     max-width: 38%;
     position: absolute;
     bottom: 0px;
-    right: 70px;
+    right: 30px;
 }
 
 
@@ -86,37 +86,34 @@ header {
     margin-top: 50px;
 }
 
-.feature .iner-section .column1st div {
+.feature .iner-section .column div{
     border-radius: 300px 300px 0px 0px;
+    width: 380px;
+    height: 430px;
+}
+
+.feature .iner-section .column1st div {
     background: rgba(167, 33, 98, 0.15);
-    width: 300px;
-    height: 350px;
     background-image: url('./img/pngwing\ 6.png');
     background-repeat: no-repeat;
     background-position: center bottom;
-    background-size: 200px auto;
+    background-size: 235px auto;
 }
 
 .feature .iner-section .column2nd div {
-    border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    width: 300px;
-    height: 350px;
     background-image: url('./img/pngwing\ 5.png');
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 250px auto;
+    background-size: 300px auto;
 }
 
 .feature .iner-section .column3rd div {
-    border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    width: 300px;
-    height: 350px;
     background-image: url('./img/pngwing\ 7.png');
     background-repeat: no-repeat;
     background-position: center bottom;
-    background-size: 200px auto;
+    background-size: 235px auto;
 }
 
 .feature .iner-section a {
@@ -140,6 +137,35 @@ header {
 .cust-info img {
     width: 60px;
     margin: 15px;
+}
+
+
+/* Best Sells Flowers */
+.best-sell .iner-section .column{
+    border: 1px solid #000000;
+}
+
+.best-sell {
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.best-sell p {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.best-sell .iner-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.best-sell .iner-section a {
+    display: block;
+    margin-top: 20px;
+    color: #000000;
+    font-weight: 600;
 }
 
 
@@ -187,9 +213,6 @@ header {
 
 
 /* Newsletter Section Style  */
-
-.newsletter {}
-.newsletter .container {}
 .newsletter .container .iner-section{
     text-align: center;
     background-image: url('./img/Rectangle\ 9.png');
