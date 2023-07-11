@@ -33,7 +33,9 @@
     cursor: pointer;
 }
 
-
+.primary{
+    color: #E55473;
+}
 
 /* Header/Banner Style  */
 header {
@@ -206,7 +208,7 @@ footer{
     color: #ffffff;
 }
 footer .container p{
-    color: #dad8d8;
+    color: #d5d5d5;
     width: 600px;
     margin: 30px auto;
 }
