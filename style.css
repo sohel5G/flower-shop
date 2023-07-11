@@ -193,8 +193,25 @@ header {
 }
 .newsletter .container .iner-section input[type="email"]{
     padding: 10px;
-    height: 25px;
+    height: 27px;
     border: none;
     width: 400px;
 }
+
+/* Footer Style  */
+footer{
+    text-align: center;
+    padding: 70px 0px;
+    background-color: #000000;
+    color: #ffffff;
+}
+footer .container p{
+    color: #dad8d8;
+    width: 600px;
+    margin: 30px auto;
+}
+footer .container .copyright{
+    color: #b5b0b0
+}
+
 
